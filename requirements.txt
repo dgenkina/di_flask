@@ -3,4 +3,4 @@ requests==2.20.0
 pandas==0.24.2
 bokeh==0.12.7
 flask==0.12.2
-wtfforms==2.2.1
+WTFforms==2.2.1
