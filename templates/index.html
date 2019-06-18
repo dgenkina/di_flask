@@ -7,7 +7,7 @@
     <meta name="author" content="@gotoariel">
     <!-- <link rel="icon" href="favicon.ico"> -->
 
-    <title>Sup, bro</title>
+    <title>Data Incubator Project</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,13 +16,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-left">
-          <h2></h2>
+          <h2>Dina's milestone project for Data Incubator Summer 2019!</h2>
           <ul>
             <li><a href="/about">About</a></li>
-            <li><a target="_blank" href="https://www.heroku.com/">Heroku</a></li>
-            <li><a target="_blank" href="http://flask.pocoo.org/">Flask</a></li>
-            <li><a target="_blank" href="http://jinja.pocoo.org/docs/2.9/">Jinja2</a></li>
-            <li><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
+            <li><a href="/tickers">Ticker plotter</a></li>
           </ul>
         </div>
       </div>
@@ -30,13 +27,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-	<form action="/visit" method="POST">
-		<fieldset>
-			<legend>Choose which ticker to plot</legend>
-			{{ forms.render(set_data_params_form) }}
-			<p><input type="Submit" value="Plot"></p>
-		</fieldset>
-	</form>
 	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
